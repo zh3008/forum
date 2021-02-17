@@ -8,6 +8,6 @@ type Config struct {
 //NewConfig ..
 func NewConfig() *Config {
 	return &Config{
-		Port: "*:8080",
+		Port: ":8080",
 	}
 }
